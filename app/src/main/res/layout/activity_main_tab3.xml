@@ -10,22 +10,52 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/editTextText3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="textCapSentences"
-            android:inputType="text|textCapSentences" />
+            android:hint="flagNoPersonalizedLearning"
+            android:imeOptions="flagNoPersonalizedLearning"
+            android:inputType="text" />
 
         <EditText
+            android:id="@+id/editTextText2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="textCapWords"
-            android:inputType="text|textCapWords" />
+            android:hint="flagNoExtractUi"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="text" />
 
         <EditText
+            android:id="@+id/editTextText4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="textCapCharacters"
-            android:inputType="text|textCapCharacters" />
+            android:hint="flagNoEnterAction"
+            android:imeOptions="flagNoEnterAction"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="flagNoAccessoryAction"
+            android:imeOptions="flagNoAccessoryAction"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="flagNoFullscreen"
+            android:imeOptions="flagNoFullscreen"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="flagForceAscii"
+            android:imeOptions="flagForceAscii"
+            android:inputType="text" />
 
     </LinearLayout>
 
